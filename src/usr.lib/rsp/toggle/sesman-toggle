@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Verifica se o sesman já está rodando
+if pgrep -x "sesman" > /dev/null; then
+    # Se estiver rodando, fecha o sesman
+    pkill sesman
+else
+    # Se não estiver rodando, abre o sesman
+    sesman &
+fi

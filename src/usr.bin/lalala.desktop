@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=lalala
+Exec=echo "Ação lalala executada"
+Icon=utilities-terminal
+Terminal=true

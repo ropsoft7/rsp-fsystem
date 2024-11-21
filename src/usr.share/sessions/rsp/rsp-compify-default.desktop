@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=@RSp Session
+Comment=Start Compify's default Desktop Session
+Exec=startRspDesktop
+Type=Application
+Session=default

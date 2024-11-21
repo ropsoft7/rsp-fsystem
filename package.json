@@ -1,0 +1,22 @@
+{
+  "name": "filesystem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "setup-grub": "bash script/setup-grub.sh",
+    "setup-apt": "bash script/setup-apt.sh",
+    "setup-xdg": "bash script/setup-xdg.sh",
+    "setup-share": "bash script/setup-share.sh",
+    "setup-release": "bash script/setup-release.sh",
+    "setup-lib": "bash script/setup-lib.sh",
+    "setup-greeter":"bash script/setup-greeter.sh",
+    "setup-bins": "bash script/setup-bins.sh",
+    "setup-proman": "bash script/setup-proman.sh",
+    "create-bin": "bash script/create-bin.sh",
+    "create-sbin": "bash script/create-sbin.sh",
+    "unset-bin": "sudo rm -rf /usr/local/bin/rsp.*"
+  },
+  "author": "@ropsoft",
+  "license": "ISC",
+  "description": ""
+}

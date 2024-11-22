@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node start.js",
+    "start": "yes | node start.js",
     "setup-grub": "bash script/56-setup-grub.sh",
     "setup-skel": "bash script/21-setup-skel.sh",
     "setup-apt": "bash script/03-setup-apt.sh",
@@ -13,7 +13,6 @@
     "setup-environment": "bash script/53-setup-environment.sh",
     "setup-completion": "bash script/49-setup-completion.sh",
     "setup-lib": "bash script/42-setup-lib.sh",
-    "setup-greeter":"bash script/setup-greeter.sh",
     "setup-bins": "bash script/07-setup-bins.sh",
     "setup-proman": "bash script/35-setup-proman.sh",
     "create-bin": "bash script/create-bin.sh",

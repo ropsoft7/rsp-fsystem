@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "start.js",
+    "start": "node start.js",
     "setup-grub": "bash script/56-setup-grub.sh",
     "setup-skel": "bash script/21-setup-skel.sh",
     "setup-apt": "bash script/03-setup-apt.sh",

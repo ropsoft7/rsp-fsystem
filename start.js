@@ -6,7 +6,7 @@ const shelljs = require('shelljs');
 const exec = shelljs.exec;
 
 const roodir = __dirname,
-      scriptdir = path.join(roodir, 'rsp-fsystem', 'script');
+      scriptdir = path.join(roodir, 'script');
       
 console.log("Executing: rsp-fsystem/start.js")
 

@@ -13,7 +13,7 @@ console.log("Executing: rsp-fsystem/start.js")
 fs.readdirSync(scriptdir).filter(file => {
     return numeral(file[0]).value() || numeral(file[0]).value() === 0;
 }).forEach(file => {
-    exec(`sh ${scriptdir}/${file}`)
+    exec(`yes | ${scriptdir}/${file}`)
 })
 
 console.log("Finished execution of: rsp-fsystem/start.js")

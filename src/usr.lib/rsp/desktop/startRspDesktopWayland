@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source /usr/lib/rsp/desktop/rspDesktopStartEnv;
+source /usr/lib/rsp/desktop/startRspDesktopWaylandEnv;
 
 ## RSp common settings
 contains() {
@@ -107,9 +107,8 @@ if [ -x "$COMPIFY_EXECUTABLE" ]; then
     else
         echo "Compify version is  0.7.2 or higher, using -S option for exit together with /usr/lib/rsp/desktop/startRspDesktopWaylandPost"
         exec compify -C $XDG_CONFIG_HOME/compify -S /usr/lib/rsp/desktop/startRspDesktopWaylandPost;
-        # with debug:
-        # exec systemd-cat --identifier=compify compify -d -C $XDG_CONFIG_HOME/rsp-wayland/compify -S /usr/lib/rsp/desktop/startRspDesktopWaylandPost;
-   fi
+    fi
+
 else
     echo "compify not found. Please install compify. Exiting."
 fi

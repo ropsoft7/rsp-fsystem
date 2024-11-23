@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source /usr/lib/rsp/desktop/rspDesktopStartEnv;
+source /usr/lib/rsp/desktop/startRspDesktopWaylandEnv;
 
 #/usr/local/bin/pcmanfm-qt --desktop --platform xcb &
 #/usr/local/bin/rsp-panel --platform xcb &
